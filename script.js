@@ -37,7 +37,7 @@ document.addEventListener('DOMContentLoaded', () => {
       const apiKey = 'sk-Aexs6XDMzlTSlPg1wLnEqynAr9zz4QN4wLRuDfUitTwidj4Q';
       const apiUrl = 'https://hk.linkapi.ai/v1/chat/completions';
       const payload = {
-        model: 'gpt-4.1',
+        model: 'gemini-2.5-pro',
         messages: [
           {
             role: 'system',
