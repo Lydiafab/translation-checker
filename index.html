@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Translation Checker</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Translation Checker</h1>
+    <p class="lead">Enter the original Chinese text and its English translation. The service will analyze the translation for grammar mistakes, mistranslations, logic issues, punctuation errors, and provide suggestions to make the translation more natural and idiomatic.</p>
+    <form id="check-form">
+      <label for="source-text">Original Chinese Text:</label>
+      <textarea id="source-text" name="source" placeholder="输入中文原文" required></textarea>
+      <label for="translation-text">English Translation:</label>
+      <textarea id="translation-text" name="translation" placeholder="Enter the English translation here" required></textarea>
+      <button type="submit">Check Translation</button>
+    </form>
+    <div id="results" class="hidden">
+      <h2>Results</h2>
+      <pre id="results-content"></pre>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
